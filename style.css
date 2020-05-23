@@ -1,0 +1,374 @@
+body {
+    background-color: black;
+}
+
+main {
+    background-color: black;
+}
+
+li {
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+}
+
+ul#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li2 {
+  float: left;
+}
+
+li2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    font-family: sans-serif
+}
+
+li2 a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.list li2 {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+#learnmore {
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    font-family: sans-serif;
+    border: none;
+}
+.signup {
+    display: block;
+    text-align: center;
+}
+
+.signupform {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+
+.logoutbtn {
+     line-height: 12px;
+     width: 50px;
+    height: 40px;
+     font-size: 8pt;
+     font-family: sans-serif;
+     margin-top: 13px;
+     margin-right: 10%;
+     position:absolute;
+     top:0;
+     right:0;
+   background-color: #333;
+    font-size: 16px;
+}
+
+h1 {
+color: white;
+font-family: sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+}
+
+p2 {
+    color: white;
+    font-family: sans-serif;
+}
+input {
+    width: 250px;
+    height: 30px;
+}
+
+.registertext {
+    font-family: sans-serif;
+    text-align: center;
+}
+.logintext {
+    font-family: sans-serif;
+    text-align: center;
+}
+placeholder {
+    font-family: sans-serif;
+}
+.loginbutton {
+    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: groove;    
+    padding: 6px;
+    border-color: aliceblue;
+    width: 280px;
+    height: 70px;
+
+}
+
+.loginbutton:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.registerbutton {
+    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: groove;    
+    padding: 6px;
+    border-color: aliceblue;
+    width: 280px;
+    height: 70px;
+}
+
+.registerbutton:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.guestbutton {
+     background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: groove;    
+    padding: 6px;
+    border-color: aliceblue;
+    width: 280px;
+    height: 70px;
+}
+.guestbutton:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+textarea {
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+.comment-box {
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+}
+
+.comment-box p {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #282828;
+    font-weight: 100;
+}
+
+.edit-form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.edit-form button {
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.edit-form button:hover {
+ opacity: 1;
+}
+
+.delete-form {
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+
+.delete-form button {
+    width: 40px;
+    height: 20px;
+    color: #282828;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.delete-form button:hover {
+ opacity: 1;
+}
+
+.carbonhackbtn {
+    width: 150px;
+    height: 40px;
+}
+
+.carbonhacksform {
+     margin-left: 15%;
+}
+
+.userprofile {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.profilebtn {
+     line-height: 12px;
+     width: 50px;
+    height: 40px;
+     font-size: 8pt;
+     font-family: sans-serif;
+    color: white;
+     margin-top: 13px;
+     margin-right: 18%;
+     position:absolute;
+     top:0;
+     right:0;
+   background-color: #333;
+    font-size: 16px;
+    border: none;
+}
+  
+.waterbottle {
+      
+
+   
+     margin-top: 13px;
+     margin-right: 20%;
+     position:absolute;
+     top:20%;
+     right:20%;
+
+}
+.bicycle {
+      
+
+   
+     margin-top: 10%;
+     margin-right: 0%;
+     position:absolute;
+     top:63%;
+     right:75%;
+
+}
+  
+.reusablebag {
+     margin-top: 120px;
+     margin-right: 20%;
+     position:absolute;
+     top:115%;
+     right:15%;
+
+}
+.advicesize{
+    width: 50%;
+    padding: 10px;
+   
+}
+     
+
+.nobadge {
+      margin-top: 10px;
+     margin-right: 10%;
+     position:absolute;
+     top:12%;
+     right:15%; 
+}
+
+.bronzebadge {
+      margin-top: 10px;
+     margin-right: 10%;
+     position:absolute;
+     top:12%;
+     right:15%; 
+}
+
+.silverbadge {
+      margin-top: 10px;
+     margin-right: 10%;
+     position:absolute;
+     top:12%;
+     right:15%; 
+}
+
+.goldbadge {
+      margin-top: 10px;
+     margin-right: 10%;
+     position:absolute;
+     top:12%;
+     right:15%; 
+}
+
+h4 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+}
